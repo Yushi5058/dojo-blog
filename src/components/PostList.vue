@@ -8,12 +8,13 @@
 </template>
 
 <script>
+    import { onMounted  } from 'vue';
     import SinglePost from "./SinglePost.vue";
 export default {
     props: ['posts'],
     components: { SinglePost },
     setup(props) {
-
+onMounted(() => {})
     }
 
 }
